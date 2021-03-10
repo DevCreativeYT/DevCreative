@@ -1,7 +1,7 @@
 DevCreative VDS
 
-Youtube Video: Yakında
+Youtube Video:
 
 Kod: NGROK_AUTH_TOKEN
 
-Discord: https://discord.gg/
+Discord: https://discord.gg/byeHqfeBsD
