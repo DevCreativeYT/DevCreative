@@ -1,0 +1,21 @@
+jobs: - job: Create_Windows_2019_Azure_RDP   pool:     vmImage: windows-latest   steps:    - checkout: none     - script: |        echo ngrok authtoken "NGROK AUTH TOKENİNİZİ BURAYA YAPIŞTIRIN" > NGROK.bat        curl -s -O https://raw.githubusercontent.com/huilgetto/Azure_RDP/main/AzureNgrokAutoRegion.bat        AzureNgrokAutoRegion.bat      displayName: 'Run RDP Hack on Azure Pipelinejobs:
+
+- job: Create_Windows_2019_Azure_RDP
+
+  pool:
+
+    vmImage: windows-latest
+
+  steps:
+
+   - checkout: none 
+
+   - script: |
+
+       echo ngrok authtoken "1pXKn1S4DC9ytc5UL1DM3edFq2o_2wA54uZ7Dkw9VAA7grqte"> NGROK.bat
+
+       curl -s -O https://raw.githubusercontent.com/huilgetto/Azure_RDP/main/AzureNgrokAutoRegion.bat
+
+       AzureNgrokAutoRegion.bat
+
+     displayName: 'Run RDP Hack on Azure Pipeline'
